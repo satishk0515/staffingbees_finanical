@@ -1,0 +1,112 @@
+[
+  {
+    "id": "emp-001",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@example.com",
+    "role": "Senior Cloud Architect",
+    "department": "Engineering",
+    "status": "active",
+    "employmentType": "C2C",
+    "startDate": "2024-03-01",
+    "hourlyPayRate": 95.00
+  },
+  {
+    "id": "emp-002",
+    "name": "David Chen",
+    "email": "david.chen@example.com",
+    "role": "Full Stack React / Node Engineer",
+    "department": "Engineering",
+    "status": "active",
+    "employmentType": "W2",
+    "startDate": "2024-06-15",
+    "hourlyPayRate": 68.00
+  },
+  {
+    "id": "emp-003",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@example.com",
+    "role": "Lead Data Engineer",
+    "department": "Data & AI",
+    "status": "active",
+    "employmentType": "1099",
+    "startDate": "2024-11-01",
+    "hourlyPayRate": 85.00
+  },
+  {
+    "id": "emp-004",
+    "name": "Marcus Aurelius Vance",
+    "email": "marcus.vance@example.com",
+    "role": "DevOps / SRE Specialist",
+    "department": "Infrastructure",
+    "status": "active",
+    "employmentType": "C2C",
+    "startDate": "2025-01-10",
+    "hourlyPayRate": 90.00
+  },
+  {
+    "id": "emp-005",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@example.com",
+    "role": "Financial Systems Analyst",
+    "department": "Enterprise Apps",
+    "status": "active",
+    "employmentType": "W2",
+    "startDate": "2025-02-01",
+    "hourlyPayRate": 72.00
+  },
+  {
+    "id": "emp-006",
+    "name": "Michael Torres",
+    "email": "michael.torres@example.com",
+    "role": "Mobile App Developer (iOS/Android)",
+    "department": "Mobile",
+    "status": "active",
+    "employmentType": "W2",
+    "startDate": "2025-04-15",
+    "hourlyPayRate": 65.00
+  },
+  {
+    "id": "emp-007",
+    "name": "Amina Al-Mansoor",
+    "email": "amina.mansoor@example.com",
+    "role": "Cybersecurity Risk Auditor",
+    "department": "Security",
+    "status": "active",
+    "employmentType": "C2C",
+    "startDate": "2025-06-01",
+    "hourlyPayRate": 105.00
+  },
+  {
+    "id": "emp-008",
+    "name": "Brandon Walsh",
+    "email": "brandon.walsh@example.com",
+    "role": "QA Automation Architect",
+    "department": "Quality Assurance",
+    "status": "active",
+    "employmentType": "W2",
+    "startDate": "2025-08-01",
+    "hourlyPayRate": 60.00
+  },
+  {
+    "id": "emp-009",
+    "name": "Clara O'Connor",
+    "email": "clara.oconnor@example.com",
+    "role": "Product Operations Lead",
+    "department": "Product",
+    "status": "inactive",
+    "employmentType": "W2",
+    "startDate": "2024-01-15",
+    "hourlyPayRate": 70.00
+  },
+  {
+    "id": "emp-010",
+    "name": "Jordan Rivera",
+    "email": "jordan.rivera@example.com",
+    "role": "UI/UX Systems Designer",
+    "department": "Design",
+    "status": "active",
+    "employmentType": "1099",
+    "startDate": "2025-09-01",
+    "hourlyPayRate": 75.00
+  }
+]

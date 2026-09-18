@@ -1,0 +1,112 @@
+[
+  {
+    "id": "plc-001",
+    "employeeId": "emp-001",
+    "clientId": "cli-001",
+    "jobTitle": "Lead Cloud Infrastructure Architect",
+    "status": "active",
+    "billRate": 165.00,
+    "payRate": 95.00,
+    "startDate": "2024-04-01",
+    "endDate": "2026-12-31"
+  },
+  {
+    "id": "plc-002",
+    "employeeId": "emp-002",
+    "clientId": "cli-001",
+    "jobTitle": "Senior Fullstack Engineer",
+    "status": "active",
+    "billRate": 125.00,
+    "payRate": 68.00,
+    "startDate": "2024-07-01",
+    "endDate": "2027-01-31"
+  },
+  {
+    "id": "plc-003",
+    "employeeId": "emp-003",
+    "clientId": "cli-002",
+    "jobTitle": "Principal Healthcare Data Architect",
+    "status": "active",
+    "billRate": 150.00,
+    "payRate": 85.00,
+    "startDate": "2024-11-15",
+    "endDate": "2026-11-30"
+  },
+  {
+    "id": "plc-004",
+    "employeeId": "emp-004",
+    "clientId": "cli-003",
+    "jobTitle": "DevOps Transformation Consultant",
+    "status": "active",
+    "billRate": 155.00,
+    "payRate": 90.00,
+    "startDate": "2025-02-01",
+    "endDate": "2026-12-31"
+  },
+  {
+    "id": "plc-005",
+    "employeeId": "emp-005",
+    "clientId": "cli-004",
+    "jobTitle": "Supply Chain Financial Analyst",
+    "status": "active",
+    "billRate": 120.00,
+    "payRate": 72.00,
+    "startDate": "2025-02-15",
+    "endDate": "2026-10-31"
+  },
+  {
+    "id": "plc-006",
+    "employeeId": "emp-006",
+    "clientId": "cli-003",
+    "jobTitle": "Lead Mobile Engineer",
+    "status": "active",
+    "billRate": 115.00,
+    "payRate": 65.00,
+    "startDate": "2025-05-01",
+    "endDate": "2027-04-30"
+  },
+  {
+    "id": "plc-007",
+    "employeeId": "emp-007",
+    "clientId": "cli-005",
+    "jobTitle": "SecOps & Compliance Director",
+    "status": "active",
+    "billRate": 190.00,
+    "payRate": 105.00,
+    "startDate": "2025-06-15",
+    "endDate": "2026-12-31"
+  },
+  {
+    "id": "plc-008",
+    "employeeId": "emp-008",
+    "clientId": "cli-002",
+    "jobTitle": "Staff SDET / Automated Testing",
+    "status": "active",
+    "billRate": 110.00,
+    "payRate": 60.00,
+    "startDate": "2025-08-15",
+    "endDate": "2026-08-14"
+  },
+  {
+    "id": "plc-009",
+    "employeeId": "emp-010",
+    "clientId": "cli-006",
+    "jobTitle": "CleanTech Design Specialist",
+    "status": "active",
+    "billRate": 130.00,
+    "payRate": 75.00,
+    "startDate": "2025-09-01",
+    "endDate": "2026-09-30"
+  },
+  {
+    "id": "plc-010",
+    "employeeId": "emp-009",
+    "clientId": "cli-007",
+    "jobTitle": "Product Strategy Manager",
+    "status": "completed",
+    "billRate": 135.00,
+    "payRate": 70.00,
+    "startDate": "2024-02-01",
+    "endDate": "2025-01-31"
+  }
+]

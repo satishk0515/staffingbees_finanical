@@ -1,0 +1,178 @@
+[
+  {
+    "id": "inc-2026-001",
+    "clientId": "cli-001",
+    "invoiceId": "inv-2026-101",
+    "date": "2026-09-01",
+    "amount": 23200.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-002",
+    "clientId": "cli-002",
+    "invoiceId": "inv-2026-102",
+    "date": "2026-09-05",
+    "amount": 18500.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-003",
+    "clientId": "cli-003",
+    "invoiceId": "inv-2026-104",
+    "date": "2026-09-15",
+    "amount": 12600.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-004",
+    "clientId": "cli-005",
+    "invoiceId": "inv-2026-105",
+    "date": "2026-09-17",
+    "amount": 14200.00,
+    "category": "Direct Placement Fee"
+  },
+  {
+    "id": "inc-2026-005",
+    "clientId": "cli-001",
+    "invoiceId": "inv-2026-108",
+    "date": "2026-08-01",
+    "amount": 24800.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-006",
+    "clientId": "cli-002",
+    "invoiceId": "inv-2026-109",
+    "date": "2026-08-05",
+    "amount": 22000.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-007",
+    "clientId": "cli-003",
+    "invoiceId": null,
+    "date": "2026-08-15",
+    "amount": 21800.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-008",
+    "clientId": "cli-004",
+    "invoiceId": "inv-2026-103",
+    "date": "2026-08-15",
+    "amount": 14400.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-009",
+    "clientId": "cli-005",
+    "invoiceId": null,
+    "date": "2026-08-20",
+    "amount": 16200.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-010",
+    "clientId": "cli-006",
+    "invoiceId": null,
+    "date": "2026-08-25",
+    "amount": 10500.00,
+    "category": "Consulting Services"
+  },
+  {
+    "id": "inc-2026-011",
+    "clientId": "cli-001",
+    "invoiceId": null,
+    "date": "2026-07-02",
+    "amount": 26000.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-012",
+    "clientId": "cli-002",
+    "invoiceId": null,
+    "date": "2026-07-10",
+    "amount": 20400.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-013",
+    "clientId": "cli-003",
+    "invoiceId": null,
+    "date": "2026-07-18",
+    "amount": 19500.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-014",
+    "clientId": "cli-005",
+    "invoiceId": null,
+    "date": "2026-07-22",
+    "amount": 30400.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-015",
+    "clientId": "cli-001",
+    "invoiceId": null,
+    "date": "2026-06-05",
+    "amount": 25100.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-016",
+    "clientId": "cli-002",
+    "invoiceId": null,
+    "date": "2026-06-12",
+    "amount": 19800.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-017",
+    "clientId": "cli-006",
+    "invoiceId": "inv-2026-106",
+    "date": "2026-06-15",
+    "amount": 15600.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-018",
+    "clientId": "cli-001",
+    "invoiceId": null,
+    "date": "2026-05-08",
+    "amount": 24000.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-019",
+    "clientId": "cli-007",
+    "invoiceId": "inv-2026-107",
+    "date": "2026-05-12",
+    "amount": 27000.00,
+    "category": "Direct Placement Fee"
+  },
+  {
+    "id": "inc-2026-020",
+    "clientId": "cli-003",
+    "invoiceId": null,
+    "date": "2026-05-20",
+    "amount": 18000.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-021",
+    "clientId": "cli-001",
+    "invoiceId": null,
+    "date": "2026-04-09",
+    "amount": 22500.00,
+    "category": "Staffing Services"
+  },
+  {
+    "id": "inc-2026-022",
+    "clientId": "cli-002",
+    "invoiceId": null,
+    "date": "2026-04-18",
+    "amount": 18200.00,
+    "category": "Staffing Services"
+  }
+]

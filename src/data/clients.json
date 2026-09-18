@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cli-001",
+    "name": "Apex Global Financial",
+    "industry": "Fintech & Banking",
+    "status": "active",
+    "paymentTerms": "Net 30",
+    "billingEmail": "billing@apexglobal.example.com",
+    "contactPerson": "Eleanor Vance"
+  },
+  {
+    "id": "cli-002",
+    "name": "OmniTech Health Systems",
+    "industry": "Healthcare IT",
+    "status": "active",
+    "paymentTerms": "Net 45",
+    "billingEmail": "ap@omnitech-health.example.com",
+    "contactPerson": "Robert Sterling"
+  },
+  {
+    "id": "cli-003",
+    "name": "Beacon Media & Telecom",
+    "industry": "Telecommunications",
+    "status": "active",
+    "paymentTerms": "Net 30",
+    "billingEmail": "invoices@beaconmedia.example.com",
+    "contactPerson": "Katherine Hughes"
+  },
+  {
+    "id": "cli-004",
+    "name": "Horizon Logistics Networks",
+    "industry": "Supply Chain & Freight",
+    "status": "active",
+    "paymentTerms": "Net 15",
+    "billingEmail": "finance@horizonlogistics.example.com",
+    "contactPerson": "Carlos Mendez"
+  },
+  {
+    "id": "cli-005",
+    "name": "Quantico Defense Solutions",
+    "industry": "Aerospace & Defense",
+    "status": "active",
+    "paymentTerms": "Net 60",
+    "billingEmail": "accounting@quanticodefense.example.com",
+    "contactPerson": "Col. Frank Castle (Ret.)"
+  },
+  {
+    "id": "cli-006",
+    "name": "Solaris Energy Dynamics",
+    "industry": "Clean Energy & Utilities",
+    "status": "active",
+    "paymentTerms": "Net 30",
+    "billingEmail": "payables@solarisenergy.example.com",
+    "contactPerson": "Tara Gupta"
+  },
+  {
+    "id": "cli-007",
+    "name": "Nexus Retail Technologies",
+    "industry": "E-Commerce",
+    "status": "inactive",
+    "paymentTerms": "Net 30",
+    "billingEmail": "accounts@nexusretail.example.com",
+    "contactPerson": "Arthur Pendelton"
+  }
+]

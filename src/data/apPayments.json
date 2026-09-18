@@ -1,0 +1,18 @@
+[
+  {
+    "id": "app-2026-001",
+    "billId": "bill-2026-209",
+    "amount": 5440.00,
+    "paymentDate": "2026-08-28",
+    "paymentMethod": "Direct Deposit",
+    "referenceNumber": "DD-30491"
+  },
+  {
+    "id": "app-2026-002",
+    "billId": "bill-2026-201",
+    "amount": 2000.00,
+    "paymentDate": "2026-09-02",
+    "paymentMethod": "ACH",
+    "referenceNumber": "ACH-99410"
+  }
+]

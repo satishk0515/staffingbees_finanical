@@ -1,0 +1,29 @@
+[
+  {
+    "id": "arp-2026-001",
+    "invoiceId": "inv-2026-108",
+    "clientId": "cli-001",
+    "amount": 24800.00,
+    "paymentDate": "2026-09-02",
+    "paymentMethod": "ACH",
+    "referenceNumber": "ACH-889210"
+  },
+  {
+    "id": "arp-2026-002",
+    "invoiceId": "inv-2026-109",
+    "clientId": "cli-002",
+    "amount": 22000.00,
+    "paymentDate": "2026-08-12",
+    "paymentMethod": "Wire",
+    "referenceNumber": "WIR-491204"
+  },
+  {
+    "id": "arp-2026-003",
+    "invoiceId": "inv-2026-104",
+    "clientId": "cli-003",
+    "amount": 12000.00,
+    "paymentDate": "2026-09-08",
+    "paymentMethod": "ACH",
+    "referenceNumber": "ACH-773199"
+  }
+]

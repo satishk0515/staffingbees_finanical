@@ -1,0 +1,110 @@
+[
+  {
+    "id": "bill-2026-201",
+    "billNumber": "BILL-2026-201",
+    "vendorName": "Jenkins Cloud Consultancy LLC (Sarah Jenkins)",
+    "employeeId": "emp-001",
+    "issueDate": "2026-08-25",
+    "dueDate": "2026-09-05",
+    "total": 7600.00,
+    "balance": 7600.00,
+    "status": "overdue",
+    "category": "Contractor Payroll"
+  },
+  {
+    "id": "bill-2026-202",
+    "billNumber": "BILL-2026-202",
+    "vendorName": "Vance SecOps Group (Marcus Vance)",
+    "employeeId": "emp-004",
+    "issueDate": "2026-08-28",
+    "dueDate": "2026-09-10",
+    "total": 6800.00,
+    "balance": 6800.00,
+    "status": "overdue",
+    "category": "Contractor Payroll"
+  },
+  {
+    "id": "bill-2026-203",
+    "billNumber": "BILL-2026-203",
+    "vendorName": "Rostova Data Systems (Elena Rostova)",
+    "employeeId": "emp-003",
+    "issueDate": "2026-09-01",
+    "dueDate": "2026-09-19",
+    "total": 7480.00,
+    "balance": 7480.00,
+    "status": "unpaid",
+    "category": "Contractor Payroll"
+  },
+  {
+    "id": "bill-2026-204",
+    "billNumber": "BILL-2026-204",
+    "vendorName": "Apex Background Screening Corp",
+    "employeeId": null,
+    "issueDate": "2026-09-02",
+    "dueDate": "2026-09-18",
+    "total": 1250.00,
+    "balance": 1250.00,
+    "status": "unpaid",
+    "category": "Vendor Services"
+  },
+  {
+    "id": "bill-2026-205",
+    "billNumber": "BILL-2026-205",
+    "vendorName": "CyberDefense Partners (Amina Al-Mansoor)",
+    "employeeId": "emp-007",
+    "issueDate": "2026-09-05",
+    "dueDate": "2026-09-24",
+    "total": 8400.00,
+    "balance": 8400.00,
+    "status": "unpaid",
+    "category": "Contractor Payroll"
+  },
+  {
+    "id": "bill-2026-206",
+    "billNumber": "BILL-2026-206",
+    "vendorName": "Rivera Design Studio (Jordan Rivera)",
+    "employeeId": "emp-010",
+    "issueDate": "2026-09-06",
+    "dueDate": "2026-09-26",
+    "total": 6000.00,
+    "balance": 6000.00,
+    "status": "unpaid",
+    "category": "Contractor Payroll"
+  },
+  {
+    "id": "bill-2026-207",
+    "billNumber": "BILL-2026-207",
+    "vendorName": "Guardian Life & Health Benefits",
+    "employeeId": null,
+    "issueDate": "2026-09-10",
+    "dueDate": "2026-10-05",
+    "total": 11400.00,
+    "balance": 11400.00,
+    "status": "unpaid",
+    "category": "Employee Benefits"
+  },
+  {
+    "id": "bill-2026-208",
+    "billNumber": "BILL-2026-208",
+    "vendorName": "Workday Staffing Cloud Licensing",
+    "employeeId": null,
+    "issueDate": "2026-09-12",
+    "dueDate": "2026-10-12",
+    "total": 4500.00,
+    "balance": 4500.00,
+    "status": "unpaid",
+    "category": "Software Subscriptions"
+  },
+  {
+    "id": "bill-2026-209",
+    "billNumber": "BILL-2026-209",
+    "vendorName": "Chen Engineering Services (David Chen)",
+    "employeeId": "emp-002",
+    "issueDate": "2026-08-15",
+    "dueDate": "2026-08-30",
+    "total": 5440.00,
+    "balance": 0.00,
+    "status": "paid",
+    "category": "Contractor Payroll"
+  }
+]
