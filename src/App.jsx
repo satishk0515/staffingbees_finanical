@@ -15,6 +15,7 @@ import { ApAgingPage } from './features/ap/ApAgingPage';
 import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
 import { InvoicesPage } from './features/invoices/InvoicesPage';
 import { ClientsPage } from './features/clients/ClientsPage';
+import { ClientDetailPage } from './features/clients/ClientDetailPage';
 import { EmployeesPage } from './features/employees/EmployeesPage';
 import { EmployeeDetailPage } from './features/employees/EmployeeDetailPage';
 import { PlacementsPage } from './features/placements/PlacementsPage';
@@ -32,6 +33,7 @@ export function App() {
             <Route path="/timesheets" element={<TimesheetsPage />} />
             <Route path="/invoices" element={<InvoicesPage />} />
             <Route path="/clients" element={<ClientsPage />} />
+            <Route path="/clients/:id" element={<ClientDetailPage />} />
             <Route path="/employees" element={<EmployeesPage />} />
             <Route path="/employees/:id" element={<EmployeeDetailPage />} />
             <Route path="/placements" element={<PlacementsPage />} />

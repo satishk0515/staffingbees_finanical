@@ -1,0 +1,12 @@
+{
+  "name": "StaffingIQ Global Enterprise",
+  "legalName": "StaffingIQ Financial & Human Capital Solutions LLC",
+  "taxId": "12-9876543",
+  "currency": "USD",
+  "currencySymbol": "$",
+  "defaultPaymentTerms": "Net 30",
+  "fiscalYearStart": "01-01",
+  "address": "452 5th Avenue, 18th Floor, New York, NY 10018",
+  "supportEmail": "finance-ops@staffingiq.example.com",
+  "phone": "(212) 555-0100"
+}

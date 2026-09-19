@@ -15,6 +15,7 @@ import paymentsReducer from './paymentsSlice';
 import dashboardReducer from './dashboardSlice';
 import toastReducer from './toastSlice';
 import auditLogReducer from './auditLogSlice';
+import jobsReducer from './jobsSlice';
 
 export const store = configureStore({
   reducer: {
@@ -28,7 +29,8 @@ export const store = configureStore({
     payments: paymentsReducer,
     dashboard: dashboardReducer,
     toast: toastReducer,
-    auditLog: auditLogReducer
+    auditLog: auditLogReducer,
+    jobs: jobsReducer
   }
 });
 

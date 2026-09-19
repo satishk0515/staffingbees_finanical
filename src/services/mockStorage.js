@@ -14,8 +14,10 @@ import arPaymentsData from '../data/arPayments.json';
 import billsData from '../data/bills.json';
 import apPaymentsData from '../data/apPayments.json';
 import auditLogData from '../data/auditLog.json';
+import jobsData from '../data/jobs.json';
+import organizationData from '../data/organization.json';
 
-const STORAGE_PREFIX = 'staffing_erp_v2_';
+const STORAGE_PREFIX = 'staffing_erp_v3_';
 
 const DEFAULTS = {
   employees: employeesData,
@@ -27,7 +29,9 @@ const DEFAULTS = {
   arPayments: arPaymentsData,
   bills: billsData,
   apPayments: apPaymentsData,
-  auditLog: auditLogData
+  auditLog: auditLogData,
+  jobs: jobsData,
+  organization: organizationData
 };
 
 /**

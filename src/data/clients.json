@@ -1,65 +1,194 @@
 [
   {
     "id": "cli-001",
+    "clientId": "CLI00001",
     "name": "Apex Global Financial",
     "industry": "Fintech & Banking",
     "status": "active",
     "paymentTerms": "Net 30",
     "billingEmail": "billing@apexglobal.example.com",
-    "contactPerson": "Eleanor Vance"
+    "website": "https://apexglobal.example.com",
+    "address": "100 Wall Street, 24th Floor, New York, NY 10005",
+    "taxId": "12-3456789",
+    "currency": "USD",
+    "contactPerson": "Eleanor Vance",
+    "contacts": [
+      {
+        "id": "cnt-001-1",
+        "name": "Eleanor Vance",
+        "title": "VP of Human Capital & Vendor Management",
+        "email": "e.vance@apexglobal.example.com",
+        "phone": "(212) 555-0199",
+        "isPrimary": true
+      },
+      {
+        "id": "cnt-001-2",
+        "name": "David Stern",
+        "title": "Director of Technology Hiring",
+        "email": "d.stern@apexglobal.example.com",
+        "phone": "(212) 555-0144",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": "cli-002",
+    "clientId": "CLI00002",
     "name": "OmniTech Health Systems",
     "industry": "Healthcare IT",
     "status": "active",
     "paymentTerms": "Net 45",
     "billingEmail": "ap@omnitech-health.example.com",
-    "contactPerson": "Robert Sterling"
+    "website": "https://omnitech-health.example.com",
+    "address": "750 Longwood Avenue, Suite 1200, Boston, MA 02115",
+    "taxId": "04-9821456",
+    "currency": "USD",
+    "contactPerson": "Robert Sterling",
+    "contacts": [
+      {
+        "id": "cnt-002-1",
+        "name": "Robert Sterling",
+        "title": "Chief Information Officer",
+        "email": "r.sterling@omnitech-health.example.com",
+        "phone": "(617) 555-0182",
+        "isPrimary": true
+      },
+      {
+        "id": "cnt-002-2",
+        "name": "Karen Adams",
+        "title": "Clinical Applications Program Manager",
+        "email": "k.adams@omnitech-health.example.com",
+        "phone": "(617) 555-0188",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": "cli-003",
+    "clientId": "CLI00003",
     "name": "Beacon Media & Telecom",
     "industry": "Telecommunications",
     "status": "active",
     "paymentTerms": "Net 30",
     "billingEmail": "invoices@beaconmedia.example.com",
-    "contactPerson": "Katherine Hughes"
+    "website": "https://beaconmedia.example.com",
+    "address": "1801 California Street, Denver, CO 80202",
+    "taxId": "84-1129481",
+    "currency": "USD",
+    "contactPerson": "Katherine Hughes",
+    "contacts": [
+      {
+        "id": "cnt-003-1",
+        "name": "Katherine Hughes",
+        "title": "Director of Cloud Operations & Procurement",
+        "email": "k.hughes@beaconmedia.example.com",
+        "phone": "(303) 555-0128",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": "cli-004",
+    "clientId": "CLI00004",
     "name": "Horizon Logistics Networks",
     "industry": "Supply Chain & Freight",
     "status": "active",
     "paymentTerms": "Net 15",
     "billingEmail": "finance@horizonlogistics.example.com",
-    "contactPerson": "Carlos Mendez"
+    "website": "https://horizonlogistics.example.com",
+    "address": "333 W Wacker Drive, Suite 1500, Chicago, IL 60606",
+    "taxId": "36-7782910",
+    "currency": "USD",
+    "contactPerson": "Carlos Mendez",
+    "contacts": [
+      {
+        "id": "cnt-004-1",
+        "name": "Carlos Mendez",
+        "title": "Senior Manager of Talent Acquisition",
+        "email": "c.mendez@horizonlogistics.example.com",
+        "phone": "(312) 555-0163",
+        "isPrimary": true
+      },
+      {
+        "id": "cnt-004-2",
+        "name": "Samantha Wu",
+        "title": "Logistics Technology Lead",
+        "email": "s.wu@horizonlogistics.example.com",
+        "phone": "(312) 555-0191",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": "cli-005",
+    "clientId": "CLI00005",
     "name": "Quantico Defense Solutions",
     "industry": "Aerospace & Defense",
     "status": "active",
     "paymentTerms": "Net 60",
     "billingEmail": "accounting@quanticodefense.example.com",
-    "contactPerson": "Col. Frank Castle (Ret.)"
+    "website": "https://quanticodefense.example.com",
+    "address": "4800 Bradford Drive NW, Huntsville, AL 35805",
+    "taxId": "63-2201948",
+    "currency": "USD",
+    "contactPerson": "Col. Frank Castle (Ret.)",
+    "contacts": [
+      {
+        "id": "cnt-005-1",
+        "name": "Col. Frank Castle (Ret.)",
+        "title": "Director of Classified Systems & Staffing",
+        "email": "f.castle@quanticodefense.example.com",
+        "phone": "(256) 555-0140",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": "cli-006",
+    "clientId": "CLI00006",
     "name": "Solaris Energy Dynamics",
     "industry": "Clean Energy & Utilities",
     "status": "active",
     "paymentTerms": "Net 30",
     "billingEmail": "payables@solarisenergy.example.com",
-    "contactPerson": "Tara Gupta"
+    "website": "https://solarisenergy.example.com",
+    "address": "500 W 2nd Street, Suite 1900, Austin, TX 78701",
+    "taxId": "74-5510293",
+    "currency": "USD",
+    "contactPerson": "Tara Gupta",
+    "contacts": [
+      {
+        "id": "cnt-006-1",
+        "name": "Tara Gupta",
+        "title": "Head of Engineering Operations",
+        "email": "t.gupta@solarisenergy.example.com",
+        "phone": "(512) 555-0177",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": "cli-007",
+    "clientId": "CLI00007",
     "name": "Nexus Retail Technologies",
     "industry": "E-Commerce",
     "status": "inactive",
     "paymentTerms": "Net 30",
     "billingEmail": "accounts@nexusretail.example.com",
-    "contactPerson": "Arthur Pendelton"
+    "website": "https://nexusretail.example.com",
+    "address": "1201 3rd Avenue, Suite 2200, Seattle, WA 98101",
+    "taxId": "91-4402918",
+    "currency": "USD",
+    "contactPerson": "Arthur Pendelton",
+    "contacts": [
+      {
+        "id": "cnt-007-1",
+        "name": "Arthur Pendelton",
+        "title": "Director of Supply Chain Technology",
+        "email": "a.pendelton@nexusretail.example.com",
+        "phone": "(206) 555-0155",
+        "isPrimary": true
+      }
+    ]
   }
 ]
