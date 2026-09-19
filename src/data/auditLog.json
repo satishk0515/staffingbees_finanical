@@ -1,0 +1,65 @@
+[
+  {
+    "id": "audit-001",
+    "entityType": "employee",
+    "entityId": "emp-001",
+    "action": "CREATE",
+    "changedBy": "Admin (Eleanor Vance)",
+    "timestamp": "2024-03-01T09:00:00Z",
+    "details": "Employee profile created. Assigned employee ID EMP00001 as 1099 contractor."
+  },
+  {
+    "id": "audit-002",
+    "entityType": "employee",
+    "entityId": "emp-001",
+    "action": "PLACEMENT_ASSIGNED",
+    "changedBy": "Staffing Coordinator",
+    "timestamp": "2024-04-01T10:30:00Z",
+    "details": "Assigned to placement plc-001 (Lead Cloud Infrastructure Architect) at Apex Global Financial."
+  },
+  {
+    "id": "audit-003",
+    "entityType": "employee",
+    "entityId": "emp-002",
+    "action": "CREATE",
+    "changedBy": "Admin (Eleanor Vance)",
+    "timestamp": "2024-06-15T08:30:00Z",
+    "details": "Employee profile created. Assigned employee ID EMP00002 as W2 employee."
+  },
+  {
+    "id": "audit-004",
+    "entityType": "employee",
+    "entityId": "emp-002",
+    "action": "PLACEMENT_ASSIGNED",
+    "changedBy": "Staffing Coordinator",
+    "timestamp": "2024-07-01T09:15:00Z",
+    "details": "Assigned to placement plc-002 (Senior Fullstack Engineer) at Apex Global Financial."
+  },
+  {
+    "id": "audit-005",
+    "entityType": "employee",
+    "entityId": "emp-003",
+    "action": "CREATE",
+    "changedBy": "Admin (Eleanor Vance)",
+    "timestamp": "2024-11-01T09:45:00Z",
+    "details": "Employee profile created. Assigned employee ID EMP00003 as 1099 contractor."
+  },
+  {
+    "id": "audit-006",
+    "entityType": "employee",
+    "entityId": "emp-003",
+    "action": "PLACEMENT_ASSIGNED",
+    "changedBy": "Staffing Coordinator",
+    "timestamp": "2024-11-15T11:00:00Z",
+    "details": "Assigned to placement plc-003 at OmniTech Health Systems."
+  },
+  {
+    "id": "audit-007",
+    "entityType": "employee",
+    "entityId": "emp-009",
+    "action": "STATUS_CHANGE",
+    "changedBy": "Admin (Eleanor Vance)",
+    "timestamp": "2025-02-01T14:20:00Z",
+    "details": "Placement completed. Employee status set to inactive (on bench)."
+  }
+]

@@ -737,3 +737,94 @@ export function formatCurrencyExact(amount) {
 export function formatNumber(num) {
   return new Intl.NumberFormat('en-US').format(num || 0);
 }
+
+/**
+ * Calculates derived financial summary metrics for a specific employee on the fly.
+ * Strictly avoids storing computed values in data or state.
+ *
+ * @param {string} employeeId - Primary key (emp-### or EMP#####)
+ * @param {Array} timesheets - All timesheet records
+ * @param {Array} placements - All placement contracts
+ * @param {Array} bills - All payable bills
+ * @param {Object} [employee] - Employee record with hourlyPayRate
+ * @returns {{
+ *   totalHoursYtd: number,
+ *   totalRevenue: number,
+ *   totalCost: number,
+ *   marginContribution: number,
+ *   marginPercentage: number
+ * }}
+ */
+export function calculateEmployeeFinancialMetrics(
+  employeeId,
+  timesheets = [],
+  placements = [],
+  bills = [],
+  employee = null
+) {
+  if (!employeeId) {
+    return {
+      totalHoursYtd: 0,
+      totalRevenue: 0,
+      totalCost: 0,
+      marginContribution: 0,
+      marginPercentage: 0
+    };
+  }
+
+  // Filter placements for this employee
+  const empPlacements = placements.filter(
+    (p) => p.employeeId === employeeId || (employee && p.employeeId === employee.id)
+  );
+  const placementMap = new Map(empPlacements.map((p) => [p.id, p]));
+
+  // Filter timesheets for this employee
+  const empTimesheets = timesheets.filter(
+    (ts) => ts.employeeId === employeeId || (employee && ts.employeeId === employee.id)
+  );
+
+  let totalHoursYtd = 0;
+  let totalRevenue = 0;
+  let timesheetDerivedCost = 0;
+
+  empTimesheets.forEach((ts) => {
+    const totalH = Number(ts.totalHours) || 0;
+    const billableH = Number(ts.billableHours) || totalH;
+    totalHoursYtd += totalH;
+
+    const plc = placementMap.get(ts.placementId) || empPlacements[0];
+    const billRate = plc ? Number(plc.billRate) || 0 : 0;
+    const payRate = plc
+      ? Number(plc.payRate) || 0
+      : employee
+      ? Number(employee.hourlyPayRate) || 0
+      : 0;
+
+    totalRevenue += billableH * billRate;
+    timesheetDerivedCost += totalH * payRate;
+  });
+
+  // Check direct bills for this employee
+  const empBills = bills.filter(
+    (b) => b.employeeId === employeeId || (employee && b.employeeId === employee.id)
+  );
+
+  let totalCost = 0;
+  if (empBills.length > 0) {
+    totalCost = empBills.reduce((acc, b) => acc + (Number(b.total) || 0), 0);
+  } else {
+    totalCost = timesheetDerivedCost;
+  }
+
+  const marginContribution = calculateGrossMargin(totalRevenue, totalCost);
+  const marginPercentage = calculateMarginPercentage(marginContribution, totalRevenue);
+
+  return {
+    totalHoursYtd: Number(totalHoursYtd.toFixed(1)),
+    totalRevenue: Number(totalRevenue.toFixed(2)),
+    totalCost: Number(totalCost.toFixed(2)),
+    marginContribution: Number(marginContribution.toFixed(2)),
+    marginPercentage: Number(marginPercentage.toFixed(1))
+  };
+}
+
