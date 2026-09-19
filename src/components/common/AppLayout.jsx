@@ -18,6 +18,7 @@ import {
   Receipt,
   Users,
   Building2,
+  ClipboardList,
   Briefcase,
   Menu,
   X,
@@ -34,6 +35,7 @@ const NAV_ITEMS = [
   { label: 'AR Aging', path: '/ar/aging', icon: DollarSign },
   { label: 'AP Aging', path: '/ap/aging', icon: Receipt },
   { label: 'Clients', path: '/clients', icon: Building2 },
+  { label: 'Jobs', path: '/jobs', icon: ClipboardList },
   { label: 'Employees', path: '/employees', icon: Users },
   { label: 'Placements', path: '/placements', icon: Briefcase }
 ];

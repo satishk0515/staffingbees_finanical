@@ -130,3 +130,65 @@ export function generateInternalClientId(existingClients) {
   return `cli-${nextNumber.toString().padStart(3, '0')}`;
 }
 
+/**
+ * Generates the next sequential Job ID in JOB-YYYY-### format.
+ *
+ * @param {Array} [existingJobs] - Optional list of jobs. If not provided, reads from storage.
+ * @returns {string} e.g. "JOB-2026-010"
+ */
+export function generateJobId(existingJobs) {
+  const jobs = existingJobs || getCollection('jobs') || [];
+  let maxNumber = 0;
+
+  jobs.forEach((j) => {
+    const rawId = j.jobId || j.id || '';
+    const match = rawId.match(/JOB-\d{4}-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) {
+        maxNumber = num;
+      }
+    } else {
+      const altMatch = rawId.match(/job-(\d+)/i);
+      if (altMatch && altMatch[1]) {
+        const num = parseInt(altMatch[1], 10);
+        if (num > maxNumber) {
+          maxNumber = num;
+        }
+      }
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `JOB-2026-${nextNumber.toString().padStart(3, '0')}`;
+}
+
+/**
+ * Generates an internal slug ID for jobs, e.g. "job-010".
+ *
+ * @param {Array} [existingJobs] - Optional list of jobs.
+ * @returns {string} e.g. "job-010"
+ */
+export function generateInternalJobId(existingJobs) {
+  const jobs = existingJobs || getCollection('jobs') || [];
+  let maxNumber = 0;
+
+  jobs.forEach((j) => {
+    const rawId = j.id || j.jobId || '';
+    const match = rawId.match(/job-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    } else {
+      const altMatch = rawId.match(/JOB-\d{4}-(\d+)/i);
+      if (altMatch && altMatch[1]) {
+        const num = parseInt(altMatch[1], 10);
+        if (num > maxNumber) maxNumber = num;
+      }
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `job-${nextNumber.toString().padStart(3, '0')}`;
+}
+

@@ -19,6 +19,8 @@ import { ClientDetailPage } from './features/clients/ClientDetailPage';
 import { EmployeesPage } from './features/employees/EmployeesPage';
 import { EmployeeDetailPage } from './features/employees/EmployeeDetailPage';
 import { PlacementsPage } from './features/placements/PlacementsPage';
+import { JobsPage } from './features/jobs/JobsPage';
+import { JobDetailPage } from './features/jobs/JobDetailPage';
 import './App.css';
 
 export function App() {
@@ -34,6 +36,8 @@ export function App() {
             <Route path="/invoices" element={<InvoicesPage />} />
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/clients/:id" element={<ClientDetailPage />} />
+            <Route path="/jobs" element={<JobsPage />} />
+            <Route path="/jobs/:id" element={<JobDetailPage />} />
             <Route path="/employees" element={<EmployeesPage />} />
             <Route path="/employees/:id" element={<EmployeeDetailPage />} />
             <Route path="/placements" element={<PlacementsPage />} />
