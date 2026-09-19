@@ -331,3 +331,32 @@ export function generateBillId(existingBills, year = new Date().getFullYear()) {
   };
 }
 
+/**
+ * Generates sequential invoice IDs (slug and formal invoice number) in inv-YYYY-### / INV-YYYY-### format.
+ *
+ * @param {Array} [existingInvoices] - Optional list of invoices.
+ * @param {number} [year] - Year for ID.
+ * @returns {{ id: string, invoiceNumber: string }}
+ */
+export function generateInvoiceId(existingInvoices, year = new Date().getFullYear()) {
+  const invoices = existingInvoices || getCollection('invoices') || [];
+  let maxNumber = 0;
+
+  invoices.forEach((inv) => {
+    const rawId = inv.invoiceNumber || inv.id || '';
+    const match = rawId.match(/INV-\d{4}-(\d+)/i) || rawId.match(/inv-\d{4}-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  const numStr = nextNumber.toString().padStart(3, '0');
+  return {
+    id: `inv-${year}-${numStr}`,
+    invoiceNumber: `INV-${year}-${numStr}`
+  };
+}
+
+

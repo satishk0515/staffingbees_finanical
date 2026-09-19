@@ -24,13 +24,15 @@ import {
   X,
   Search,
   Bell,
-  Sparkles
+  Sparkles,
+  TrendingUp
 } from 'lucide-react';
 import { ToastContainer } from '../ui/ToastContainer';
 
 const NAV_ITEMS = [
   { label: 'Dashboard', path: '/', icon: LayoutDashboard },
   { label: 'Timesheets', path: '/timesheets', icon: Clock },
+  { label: 'Income', path: '/income', icon: TrendingUp },
   { label: 'Invoices', path: '/invoices', icon: FileText },
   { label: 'AR Aging', path: '/ar/aging', icon: DollarSign },
   { label: 'AP Aging', path: '/ap/aging', icon: Receipt },
@@ -68,7 +70,7 @@ export function AppLayout({ children }) {
                 </div>
                 <div>
                   <span className="text-sm font-bold tracking-tight text-slate-900 flex items-center gap-1.5">
-                    StaffingIQ
+                    Staffing
                     <span className="text-[10px] font-semibold uppercase tracking-wider bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded border border-slate-200">
                       Financials
                     </span>
@@ -109,10 +111,10 @@ export function AppLayout({ children }) {
 
             {/* Right User Bar */}
             <div className="flex items-center gap-3">
-              <div className="hidden lg:flex items-center gap-1.5 text-xs text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-200">
+              {/* <div className="hidden lg:flex items-center gap-1.5 text-xs text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full border border-slate-200">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 <span>As of Sep 18, 2026</span>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-2 pl-2 border-l border-slate-200">
                 <div className="w-8 h-8 rounded-full bg-slate-200 border border-slate-300 flex items-center justify-center text-xs font-semibold text-slate-700">

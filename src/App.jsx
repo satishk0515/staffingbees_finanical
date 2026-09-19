@@ -15,6 +15,7 @@ import { ApAgingPage } from './features/ap/ApAgingPage';
 import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
 import { TimesheetDetailPage } from './features/timesheets/TimesheetDetailPage';
 import { TimesheetFormPage } from './features/timesheets/TimesheetFormPage';
+import { IncomePage } from './features/income/IncomePage';
 import { InvoicesPage } from './features/invoices/InvoicesPage';
 import { ClientsPage } from './features/clients/ClientsPage';
 import { ClientDetailPage } from './features/clients/ClientDetailPage';
@@ -39,6 +40,7 @@ export function App() {
             <Route path="/timesheets/new" element={<TimesheetFormPage />} />
             <Route path="/timesheets/:id" element={<TimesheetDetailPage />} />
             <Route path="/timesheets/:id/edit" element={<TimesheetFormPage />} />
+            <Route path="/income" element={<IncomePage />} />
             <Route path="/invoices" element={<InvoicesPage />} />
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/clients/:id" element={<ClientDetailPage />} />
