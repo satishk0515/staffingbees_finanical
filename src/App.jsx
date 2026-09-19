@@ -1,12 +1,44 @@
+/**
+ * @file App.jsx
+ * @description Main application entrypoint configuring Redux Provider,
+ * client-side routing with React Router, and master AppLayout.
+ */
 
-import './App.css'
+import React from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import store from './store';
+import { AppLayout } from './components/common/AppLayout';
+import { DashboardPage } from './features/dashboard/DashboardPage';
+import { ArAgingPage } from './features/ar/ArAgingPage';
+import { ApAgingPage } from './features/ap/ApAgingPage';
+import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
+import { InvoicesPage } from './features/invoices/InvoicesPage';
+import { ClientsPage } from './features/clients/ClientsPage';
+import { EmployeesPage } from './features/employees/EmployeesPage';
+import { PlacementsPage } from './features/placements/PlacementsPage';
+import './App.css';
 
-function App() {
+export function App() {
   return (
-    <>
-
-    </>
-  )
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppLayout>
+          <Routes>
+            <Route path="/" element={<DashboardPage />} />
+            <Route path="/ar/aging" element={<ArAgingPage />} />
+            <Route path="/ap/aging" element={<ApAgingPage />} />
+            <Route path="/timesheets" element={<TimesheetsPage />} />
+            <Route path="/invoices" element={<InvoicesPage />} />
+            <Route path="/clients" element={<ClientsPage />} />
+            <Route path="/employees" element={<EmployeesPage />} />
+            <Route path="/placements" element={<PlacementsPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </AppLayout>
+      </BrowserRouter>
+    </Provider>
+  );
 }
 
-export default App
+export default App;
