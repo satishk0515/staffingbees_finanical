@@ -11,6 +11,7 @@ import timesheetsData from '../data/timesheets.json';
 import incomeData from '../data/income.json';
 import invoicesData from '../data/invoices.json';
 import arPaymentsData from '../data/arPayments.json';
+import arAdjustmentsData from '../data/arAdjustments.json';
 import billsData from '../data/bills.json';
 import apPaymentsData from '../data/apPayments.json';
 import auditLogData from '../data/auditLog.json';
@@ -27,6 +28,7 @@ const DEFAULTS = {
   income: incomeData,
   invoices: invoicesData,
   arPayments: arPaymentsData,
+  arAdjustments: arAdjustmentsData,
   bills: billsData,
   apPayments: apPaymentsData,
   auditLog: auditLogData,

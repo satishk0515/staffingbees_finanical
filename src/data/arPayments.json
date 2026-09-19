@@ -6,7 +6,9 @@
     "amount": 24800.00,
     "paymentDate": "2026-09-02",
     "paymentMethod": "ACH",
-    "referenceNumber": "ACH-889210"
+    "referenceNumber": "ACH-889210",
+    "status": "completed",
+    "notes": "Electronic settlement for August cloud architecture services."
   },
   {
     "id": "arp-2026-002",
@@ -15,7 +17,9 @@
     "amount": 22000.00,
     "paymentDate": "2026-08-12",
     "paymentMethod": "Wire",
-    "referenceNumber": "WIR-491204"
+    "referenceNumber": "WIR-491204",
+    "status": "completed",
+    "notes": "Direct bank wire received via Federal Reserve Wire Network."
   },
   {
     "id": "arp-2026-003",
@@ -24,6 +28,30 @@
     "amount": 12000.00,
     "paymentDate": "2026-09-08",
     "paymentMethod": "ACH",
-    "referenceNumber": "ACH-773199"
+    "referenceNumber": "ACH-773199",
+    "status": "completed",
+    "notes": "Partial milestone progress payment against Net 30 terms."
+  },
+  {
+    "id": "arp-2026-004",
+    "invoiceId": "inv-2026-107",
+    "clientId": "cli-007",
+    "amount": 5000.00,
+    "paymentDate": "2026-06-15",
+    "paymentMethod": "Check",
+    "referenceNumber": "CHK-100492",
+    "status": "completed",
+    "notes": "Corporate physical check deposited via remote capture."
+  },
+  {
+    "id": "arp-2026-005",
+    "invoiceId": "inv-2026-106",
+    "clientId": "cli-006",
+    "amount": 3500.00,
+    "paymentDate": "2026-07-20",
+    "paymentMethod": "Card",
+    "referenceNumber": "CC-AUTH-882194",
+    "status": "completed",
+    "notes": "Corporate Visa business card automated transaction."
   }
 ]

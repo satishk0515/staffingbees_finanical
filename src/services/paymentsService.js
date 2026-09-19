@@ -4,11 +4,11 @@
  */
 
 import { delay, getCollection } from './mockStorage';
+import { arService } from './arService';
 
 export const paymentsService = {
-  async getArPayments() {
-    await delay(180);
-    return getCollection('arPayments');
+  async getArPayments(filters) {
+    return arService.getArPayments(filters);
   },
 
   async getApPayments() {
@@ -16,3 +16,5 @@ export const paymentsService = {
     return getCollection('apPayments');
   }
 };
+
+export default paymentsService;

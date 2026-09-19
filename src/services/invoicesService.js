@@ -1,21 +1,19 @@
 /**
  * @file invoicesService.js
  * @description Service layer for client invoicing and accounts receivable records.
+ * Re-exports and integrates with arService.
  */
 
-import { delay, getCollection } from './mockStorage';
+import { arService } from './arService';
 
 export const invoicesService = {
-  async getInvoices() {
-    await delay(200);
-    return getCollection('invoices');
+  async getInvoices(filters) {
+    return arService.getInvoices(filters);
   },
 
   async getInvoiceById(id) {
-    await delay(150);
-    const invoices = getCollection('invoices');
-    const invoice = invoices.find((inv) => inv.id === id || inv.invoiceNumber === id);
-    if (!invoice) throw new Error(`Invoice ${id} not found.`);
-    return invoice;
+    return arService.getInvoiceById(id);
   }
 };
+
+export default invoicesService;

@@ -16,7 +16,9 @@ import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
 import { TimesheetDetailPage } from './features/timesheets/TimesheetDetailPage';
 import { TimesheetFormPage } from './features/timesheets/TimesheetFormPage';
 import { IncomePage } from './features/income/IncomePage';
-import { InvoicesPage } from './features/invoices/InvoicesPage';
+import { ArInvoicesPage } from './features/ar/ArInvoicesPage';
+import { ArInvoiceDetailPage } from './features/ar/ArInvoiceDetailPage';
+import { ArPaymentsPage } from './features/ar/ArPaymentsPage';
 import { ClientsPage } from './features/clients/ClientsPage';
 import { ClientDetailPage } from './features/clients/ClientDetailPage';
 import { EmployeesPage } from './features/employees/EmployeesPage';
@@ -34,14 +36,18 @@ export function App() {
         <AppLayout>
           <Routes>
             <Route path="/" element={<DashboardPage />} />
+            <Route path="/ar/invoices" element={<ArInvoicesPage />} />
+            <Route path="/ar/invoices/:id" element={<ArInvoiceDetailPage />} />
+            <Route path="/ar/payments" element={<ArPaymentsPage />} />
             <Route path="/ar/aging" element={<ArAgingPage />} />
+            <Route path="/invoices" element={<ArInvoicesPage />} />
+            <Route path="/invoices/:id" element={<ArInvoiceDetailPage />} />
             <Route path="/ap/aging" element={<ApAgingPage />} />
             <Route path="/timesheets" element={<TimesheetsPage />} />
             <Route path="/timesheets/new" element={<TimesheetFormPage />} />
             <Route path="/timesheets/:id" element={<TimesheetDetailPage />} />
             <Route path="/timesheets/:id/edit" element={<TimesheetFormPage />} />
             <Route path="/income" element={<IncomePage />} />
-            <Route path="/invoices" element={<InvoicesPage />} />
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/clients/:id" element={<ClientDetailPage />} />
             <Route path="/jobs" element={<JobsPage />} />
