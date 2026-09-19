@@ -13,6 +13,8 @@ import { DashboardPage } from './features/dashboard/DashboardPage';
 import { ArAgingPage } from './features/ar/ArAgingPage';
 import { ApAgingPage } from './features/ap/ApAgingPage';
 import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
+import { TimesheetDetailPage } from './features/timesheets/TimesheetDetailPage';
+import { TimesheetFormPage } from './features/timesheets/TimesheetFormPage';
 import { InvoicesPage } from './features/invoices/InvoicesPage';
 import { ClientsPage } from './features/clients/ClientsPage';
 import { ClientDetailPage } from './features/clients/ClientDetailPage';
@@ -34,6 +36,9 @@ export function App() {
             <Route path="/ar/aging" element={<ArAgingPage />} />
             <Route path="/ap/aging" element={<ApAgingPage />} />
             <Route path="/timesheets" element={<TimesheetsPage />} />
+            <Route path="/timesheets/new" element={<TimesheetFormPage />} />
+            <Route path="/timesheets/:id" element={<TimesheetDetailPage />} />
+            <Route path="/timesheets/:id/edit" element={<TimesheetFormPage />} />
             <Route path="/invoices" element={<InvoicesPage />} />
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/clients/:id" element={<ClientDetailPage />} />

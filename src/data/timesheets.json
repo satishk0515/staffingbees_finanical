@@ -1,17 +1,240 @@
 [
   {
+    "id": "ts-2026-040",
+    "placementId": "plc-001",
+    "employeeId": "emp-001",
+    "clientId": "cli-001",
+    "weekEndingDate": "2026-09-25",
+    "periodStart": "2026-09-19",
+    "periodEnd": "2026-09-25",
+    "regularHours": 24,
+    "overtimeHours": 0,
+    "holidayHours": 0,
+    "totalHours": 24,
+    "billableHours": 24,
+    "status": "draft",
+    "submittedAt": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "notes": "Draft week in progress - sprint planning and architecture review",
+    "entries": [
+      {
+        "date": "2026-09-19",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-20",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-21",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-22",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-23",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-24",
+        "day": "Thu",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-25",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
+  },
+  {
+    "id": "ts-2026-039",
+    "placementId": "plc-002",
+    "employeeId": "emp-002",
+    "clientId": "cli-001",
+    "weekEndingDate": "2026-09-25",
+    "periodStart": "2026-09-19",
+    "periodEnd": "2026-09-25",
+    "regularHours": 16,
+    "overtimeHours": 0,
+    "holidayHours": 0,
+    "totalHours": 16,
+    "billableHours": 16,
+    "status": "draft",
+    "submittedAt": null,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "notes": "Draft week - payment portal UI integration",
+    "entries": [
+      {
+        "date": "2026-09-19",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-20",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-21",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-22",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-23",
+        "day": "Wed",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-24",
+        "day": "Thu",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-25",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
+  },
+  {
     "id": "ts-2026-038",
     "placementId": "plc-001",
     "employeeId": "emp-001",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-18",
-    "regularHours": 40.0,
-    "overtimeHours": 5.0,
-    "totalHours": 45.0,
-    "billableHours": 45.0,
+    "regularHours": 40,
+    "overtimeHours": 5,
+    "totalHours": 45,
+    "billableHours": 45,
     "status": "submitted",
     "submittedAt": "2026-09-18T18:30:00Z",
-    "notes": "Sprint 24 production deployment and cloud failover testing"
+    "notes": "Sprint 24 production deployment and cloud failover testing",
+    "periodStart": "2026-09-12",
+    "periodEnd": "2026-09-18",
+    "holidayHours": 0,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-12",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-13",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-14",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-15",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-16",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 1,
+        "holidayHours": 0,
+        "totalHours": 9
+      },
+      {
+        "date": "2026-09-17",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-18",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-037",
@@ -19,13 +242,78 @@
     "employeeId": "emp-002",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-18",
-    "regularHours": 40.0,
-    "overtimeHours": 0.0,
-    "totalHours": 40.0,
-    "billableHours": 40.0,
+    "regularHours": 40,
+    "overtimeHours": 0,
+    "totalHours": 40,
+    "billableHours": 40,
     "status": "submitted",
     "submittedAt": "2026-09-18T17:15:00Z",
-    "notes": "Payment gateway modernization sprint tasks"
+    "notes": "Payment gateway modernization sprint tasks",
+    "periodStart": "2026-09-12",
+    "periodEnd": "2026-09-18",
+    "holidayHours": 0,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-12",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-13",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-14",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-15",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-16",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-17",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-18",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-036",
@@ -33,13 +321,78 @@
     "employeeId": "emp-003",
     "clientId": "cli-002",
     "weekEndingDate": "2026-09-18",
-    "regularHours": 38.0,
+    "regularHours": 38,
     "overtimeHours": 6.5,
     "totalHours": 44.5,
     "billableHours": 44.5,
     "status": "submitted",
     "submittedAt": "2026-09-18T19:00:00Z",
-    "notes": "HIPAA patient data migration pipeline optimization"
+    "notes": "HIPAA patient data migration pipeline optimization",
+    "periodStart": "2026-09-12",
+    "periodEnd": "2026-09-18",
+    "holidayHours": 0,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-12",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-13",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-14",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-15",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-16",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 2.5,
+        "holidayHours": 0,
+        "totalHours": 10.5
+      },
+      {
+        "date": "2026-09-17",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-18",
+        "day": "Fri",
+        "regularHours": 6,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 6
+      }
+    ]
   },
   {
     "id": "ts-2026-035",
@@ -47,13 +400,78 @@
     "employeeId": "emp-004",
     "clientId": "cli-003",
     "weekEndingDate": "2026-09-18",
-    "regularHours": 40.0,
-    "overtimeHours": 8.0,
-    "totalHours": 48.0,
-    "billableHours": 48.0,
-    "status": "submitted",
+    "regularHours": 40,
+    "overtimeHours": 8,
+    "totalHours": 48,
+    "billableHours": 48,
+    "status": "rejected",
     "submittedAt": "2026-09-18T16:45:00Z",
-    "notes": "Kubernetes cluster disaster recovery simulation"
+    "notes": "Kubernetes cluster disaster recovery simulation",
+    "periodStart": "2026-09-12",
+    "periodEnd": "2026-09-18",
+    "holidayHours": 0,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": "Overtime hours mismatch on cluster recovery shift — client signoff was for 4 hours, not 8 hours.",
+    "rejectedAt": "2026-09-18T21:30:00Z",
+    "entries": [
+      {
+        "date": "2026-09-12",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-13",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-14",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-15",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-16",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 12
+      },
+      {
+        "date": "2026-09-17",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-18",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-034",
@@ -61,13 +479,78 @@
     "employeeId": "emp-007",
     "clientId": "cli-005",
     "weekEndingDate": "2026-09-18",
-    "regularHours": 40.0,
-    "overtimeHours": 4.0,
-    "totalHours": 44.0,
-    "billableHours": 44.0,
+    "regularHours": 40,
+    "overtimeHours": 4,
+    "totalHours": 44,
+    "billableHours": 44,
     "status": "submitted",
     "submittedAt": "2026-09-18T20:00:00Z",
-    "notes": "DoD compliance security posture review"
+    "notes": "DoD compliance security posture review",
+    "periodStart": "2026-09-12",
+    "periodEnd": "2026-09-18",
+    "holidayHours": 0,
+    "approvedBy": null,
+    "approvedAt": null,
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-12",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-13",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-14",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-15",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-16",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-17",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-18",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-033",
@@ -75,13 +558,78 @@
     "employeeId": "emp-001",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-11",
-    "regularHours": 40.0,
-    "overtimeHours": 2.0,
-    "totalHours": 42.0,
-    "billableHours": 42.0,
+    "regularHours": 40,
+    "overtimeHours": 2,
+    "totalHours": 42,
+    "billableHours": 42,
     "status": "approved",
     "submittedAt": "2026-09-11T17:00:00Z",
-    "notes": "Terraform refactor for multi-region failover"
+    "notes": "Terraform refactor for multi-region failover",
+    "periodStart": "2026-09-05",
+    "periodEnd": "2026-09-11",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-11T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-05",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 2,
+        "holidayHours": 0,
+        "totalHours": 2
+      },
+      {
+        "date": "2026-09-06",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-07",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-08",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-09",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-10",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-11",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-032",
@@ -89,13 +637,78 @@
     "employeeId": "emp-002",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-11",
-    "regularHours": 40.0,
-    "overtimeHours": 0.0,
-    "totalHours": 40.0,
-    "billableHours": 40.0,
+    "regularHours": 40,
+    "overtimeHours": 0,
+    "totalHours": 40,
+    "billableHours": 40,
     "status": "approved",
     "submittedAt": "2026-09-11T16:30:00Z",
-    "notes": "API performance benchmarking"
+    "notes": "API performance benchmarking",
+    "periodStart": "2026-09-05",
+    "periodEnd": "2026-09-11",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-11T16:30:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-05",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-06",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-07",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-08",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-09",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-10",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-11",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-031",
@@ -103,13 +716,78 @@
     "employeeId": "emp-003",
     "clientId": "cli-002",
     "weekEndingDate": "2026-09-11",
-    "regularHours": 40.0,
-    "overtimeHours": 4.0,
-    "totalHours": 44.0,
-    "billableHours": 44.0,
+    "regularHours": 40,
+    "overtimeHours": 4,
+    "totalHours": 44,
+    "billableHours": 44,
     "status": "approved",
     "submittedAt": "2026-09-11T18:00:00Z",
-    "notes": "Snowflake data warehouse transformation"
+    "notes": "Snowflake data warehouse transformation",
+    "periodStart": "2026-09-05",
+    "periodEnd": "2026-09-11",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-11T18:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-05",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-06",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-07",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-08",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-09",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-10",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-11",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-030",
@@ -117,13 +795,78 @@
     "employeeId": "emp-005",
     "clientId": "cli-004",
     "weekEndingDate": "2026-09-11",
-    "regularHours": 40.0,
-    "overtimeHours": 0.0,
-    "totalHours": 40.0,
-    "billableHours": 40.0,
+    "regularHours": 40,
+    "overtimeHours": 0,
+    "totalHours": 40,
+    "billableHours": 40,
     "status": "approved",
     "submittedAt": "2026-09-11T17:45:00Z",
-    "notes": "Logistics cost variance models"
+    "notes": "Logistics cost variance models",
+    "periodStart": "2026-09-05",
+    "periodEnd": "2026-09-11",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-11T17:45:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-05",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-06",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-07",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-08",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-09",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-10",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-11",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-029",
@@ -131,13 +874,78 @@
     "employeeId": "emp-006",
     "clientId": "cli-003",
     "weekEndingDate": "2026-09-11",
-    "regularHours": 40.0,
-    "overtimeHours": 5.0,
-    "totalHours": 45.0,
-    "billableHours": 45.0,
+    "regularHours": 40,
+    "overtimeHours": 5,
+    "totalHours": 45,
+    "billableHours": 45,
     "status": "approved",
     "submittedAt": "2026-09-11T17:10:00Z",
-    "notes": "Telecom subscriber self-service mobile app"
+    "notes": "Telecom subscriber self-service mobile app",
+    "periodStart": "2026-09-05",
+    "periodEnd": "2026-09-11",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-11T17:10:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-09-05",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-09-06",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-09-07",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-08",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-09",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 1,
+        "holidayHours": 0,
+        "totalHours": 9
+      },
+      {
+        "date": "2026-09-10",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-11",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-028",
@@ -145,13 +953,78 @@
     "employeeId": "emp-001",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-04",
-    "regularHours": 32.0,
-    "overtimeHours": 0.0,
-    "totalHours": 32.0,
-    "billableHours": 32.0,
+    "regularHours": 32,
+    "overtimeHours": 0,
+    "totalHours": 32,
+    "billableHours": 32,
     "status": "approved",
     "submittedAt": "2026-09-04T17:00:00Z",
-    "notes": "Labor day holiday shortened week"
+    "notes": "Labor day holiday shortened week",
+    "periodStart": "2026-08-29",
+    "periodEnd": "2026-09-04",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-04T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-29",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-30",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-31",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-01",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-02",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-03",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-04",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
   },
   {
     "id": "ts-2026-027",
@@ -159,13 +1032,78 @@
     "employeeId": "emp-002",
     "clientId": "cli-001",
     "weekEndingDate": "2026-09-04",
-    "regularHours": 32.0,
-    "overtimeHours": 0.0,
-    "totalHours": 32.0,
-    "billableHours": 32.0,
+    "regularHours": 32,
+    "overtimeHours": 0,
+    "totalHours": 32,
+    "billableHours": 32,
     "status": "approved",
     "submittedAt": "2026-09-04T17:00:00Z",
-    "notes": "Labor day week"
+    "notes": "Labor day week",
+    "periodStart": "2026-08-29",
+    "periodEnd": "2026-09-04",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-04T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-29",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-30",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-31",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-01",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-02",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-03",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-04",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
   },
   {
     "id": "ts-2026-026",
@@ -173,13 +1111,78 @@
     "employeeId": "emp-003",
     "clientId": "cli-002",
     "weekEndingDate": "2026-09-04",
-    "regularHours": 32.0,
-    "overtimeHours": 2.0,
-    "totalHours": 34.0,
-    "billableHours": 34.0,
+    "regularHours": 32,
+    "overtimeHours": 2,
+    "totalHours": 34,
+    "billableHours": 34,
     "status": "approved",
     "submittedAt": "2026-09-04T17:00:00Z",
-    "notes": "Healthcare pipeline sync"
+    "notes": "Healthcare pipeline sync",
+    "periodStart": "2026-08-29",
+    "periodEnd": "2026-09-04",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-04T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-29",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 2,
+        "holidayHours": 0,
+        "totalHours": 2
+      },
+      {
+        "date": "2026-08-30",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-31",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-01",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-02",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-03",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-04",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
   },
   {
     "id": "ts-2026-025",
@@ -187,13 +1190,78 @@
     "employeeId": "emp-007",
     "clientId": "cli-005",
     "weekEndingDate": "2026-09-04",
-    "regularHours": 32.0,
-    "overtimeHours": 3.0,
-    "totalHours": 35.0,
-    "billableHours": 35.0,
+    "regularHours": 32,
+    "overtimeHours": 3,
+    "totalHours": 35,
+    "billableHours": 35,
     "status": "approved",
     "submittedAt": "2026-09-04T17:00:00Z",
-    "notes": "SecOps policy check"
+    "notes": "SecOps policy check",
+    "periodStart": "2026-08-29",
+    "periodEnd": "2026-09-04",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-09-04T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-29",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 3,
+        "holidayHours": 0,
+        "totalHours": 3
+      },
+      {
+        "date": "2026-08-30",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-31",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-01",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-02",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-03",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-09-04",
+        "day": "Fri",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      }
+    ]
   },
   {
     "id": "ts-2026-024",
@@ -201,13 +1269,78 @@
     "employeeId": "emp-001",
     "clientId": "cli-001",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 4.0,
-    "totalHours": 44.0,
-    "billableHours": 44.0,
+    "regularHours": 40,
+    "overtimeHours": 4,
+    "totalHours": 44,
+    "billableHours": 44,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Fintech cloud architecture"
+    "notes": "Fintech cloud architecture",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-023",
@@ -215,13 +1348,78 @@
     "employeeId": "emp-002",
     "clientId": "cli-001",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 0.0,
-    "totalHours": 40.0,
-    "billableHours": 40.0,
+    "regularHours": 40,
+    "overtimeHours": 0,
+    "totalHours": 40,
+    "billableHours": 40,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Frontend redesign"
+    "notes": "Frontend redesign",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-022",
@@ -229,13 +1427,78 @@
     "employeeId": "emp-003",
     "clientId": "cli-002",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 6.0,
-    "totalHours": 46.0,
-    "billableHours": 46.0,
+    "regularHours": 40,
+    "overtimeHours": 6,
+    "totalHours": 46,
+    "billableHours": 46,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Clinical data modeling"
+    "notes": "Clinical data modeling",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 2,
+        "holidayHours": 0,
+        "totalHours": 10
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-021",
@@ -243,13 +1506,78 @@
     "employeeId": "emp-004",
     "clientId": "cli-003",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 5.0,
-    "totalHours": 45.0,
-    "billableHours": 45.0,
+    "regularHours": 40,
+    "overtimeHours": 5,
+    "totalHours": 45,
+    "billableHours": 45,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "CI/CD automations"
+    "notes": "CI/CD automations",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 1,
+        "holidayHours": 0,
+        "totalHours": 9
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-020",
@@ -257,13 +1585,78 @@
     "employeeId": "emp-005",
     "clientId": "cli-004",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 0.0,
-    "totalHours": 40.0,
-    "billableHours": 40.0,
+    "regularHours": 40,
+    "overtimeHours": 0,
+    "totalHours": 40,
+    "billableHours": 40,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Freight variance analysis"
+    "notes": "Freight variance analysis",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-019",
@@ -271,13 +1664,78 @@
     "employeeId": "emp-007",
     "clientId": "cli-005",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 8.0,
-    "totalHours": 48.0,
-    "billableHours": 48.0,
+    "regularHours": 40,
+    "overtimeHours": 8,
+    "totalHours": 48,
+    "billableHours": 48,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Defense network penetration test response"
+    "notes": "Defense network penetration test response",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 4
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 4,
+        "holidayHours": 0,
+        "totalHours": 12
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   },
   {
     "id": "ts-2026-018",
@@ -285,12 +1743,77 @@
     "employeeId": "emp-010",
     "clientId": "cli-006",
     "weekEndingDate": "2026-08-28",
-    "regularHours": 40.0,
-    "overtimeHours": 2.0,
-    "totalHours": 42.0,
-    "billableHours": 42.0,
+    "regularHours": 40,
+    "overtimeHours": 2,
+    "totalHours": 42,
+    "billableHours": 42,
     "status": "approved",
     "submittedAt": "2026-08-28T17:00:00Z",
-    "notes": "Solar telemetry dashboard designs"
+    "notes": "Solar telemetry dashboard designs",
+    "periodStart": "2026-08-22",
+    "periodEnd": "2026-08-28",
+    "holidayHours": 0,
+    "approvedBy": "Controller (Financial Ops)",
+    "approvedAt": "2026-08-28T17:00:00Z",
+    "rejectedReason": null,
+    "rejectedAt": null,
+    "entries": [
+      {
+        "date": "2026-08-22",
+        "day": "Sat",
+        "regularHours": 0,
+        "overtimeHours": 2,
+        "holidayHours": 0,
+        "totalHours": 2
+      },
+      {
+        "date": "2026-08-23",
+        "day": "Sun",
+        "regularHours": 0,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 0
+      },
+      {
+        "date": "2026-08-24",
+        "day": "Mon",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-25",
+        "day": "Tue",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-26",
+        "day": "Wed",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-27",
+        "day": "Thu",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      },
+      {
+        "date": "2026-08-28",
+        "day": "Fri",
+        "regularHours": 8,
+        "overtimeHours": 0,
+        "holidayHours": 0,
+        "totalHours": 8
+      }
+    ]
   }
 ]

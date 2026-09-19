@@ -255,3 +255,79 @@ export function generateInternalPlacementId(existingPlacements) {
   return `plc-${nextNumber.toString().padStart(3, '0')}`;
 }
 
+/**
+ * Generates the next sequential Timesheet ID in ts-YYYY-### format.
+ *
+ * @param {Array} [existingTimesheets] - Optional list of timesheets.
+ * @param {number} [year] - Year for ID.
+ * @returns {string} e.g. "ts-2026-039"
+ */
+export function generateTimesheetId(existingTimesheets, year = new Date().getFullYear()) {
+  const timesheets = existingTimesheets || getCollection('timesheets') || [];
+  let maxNumber = 0;
+
+  timesheets.forEach((t) => {
+    const rawId = t.id || '';
+    const match = rawId.match(/ts-\d{4}-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `ts-${year}-${nextNumber.toString().padStart(3, '0')}`;
+}
+
+/**
+ * Generates the next sequential Income ID in inc-YYYY-### format.
+ *
+ * @param {Array} [existingIncome] - Optional list of income records.
+ * @param {number} [year] - Year for ID.
+ * @returns {string} e.g. "inc-2026-015"
+ */
+export function generateIncomeId(existingIncome, year = new Date().getFullYear()) {
+  const incomeList = existingIncome || getCollection('income') || [];
+  let maxNumber = 0;
+
+  incomeList.forEach((inc) => {
+    const rawId = inc.id || '';
+    const match = rawId.match(/inc-\d{4}-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `inc-${year}-${nextNumber.toString().padStart(3, '0')}`;
+}
+
+/**
+ * Generates sequential bill IDs (slug and formal number) in bill-YYYY-### / BILL-YYYY-### format.
+ *
+ * @param {Array} [existingBills] - Optional list of bills.
+ * @param {number} [year] - Year for ID.
+ * @returns {{ id: string, billNumber: string }}
+ */
+export function generateBillId(existingBills, year = new Date().getFullYear()) {
+  const bills = existingBills || getCollection('bills') || [];
+  let maxNumber = 0;
+
+  bills.forEach((b) => {
+    const rawId = b.billNumber || b.id || '';
+    const match = rawId.match(/BILL-\d{4}-(\d+)/i) || rawId.match(/bill-\d{4}-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  const numStr = nextNumber.toString().padStart(3, '0');
+  return {
+    id: `bill-${year}-${numStr}`,
+    billNumber: `BILL-${year}-${numStr}`
+  };
+}
+
