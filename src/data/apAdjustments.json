@@ -1,0 +1,29 @@
+[
+  {
+    "id": "apa-2026-001",
+    "billId": "bill-2026-201",
+    "type": "deduction",
+    "amount": 150.00,
+    "reason": "Hardware stipend withholding adjustment",
+    "date": "2026-08-26",
+    "appliedBy": "Financial Ops Controller"
+  },
+  {
+    "id": "apa-2026-002",
+    "billId": "bill-2026-203",
+    "type": "reimbursement",
+    "amount": 280.00,
+    "reason": "Approved cloud certification exam fee reimbursement",
+    "date": "2026-09-02",
+    "appliedBy": "HR Director"
+  },
+  {
+    "id": "apa-2026-003",
+    "billId": "bill-2026-205",
+    "type": "deduction",
+    "amount": 120.00,
+    "reason": "Security badge replacement fee deduction",
+    "date": "2026-09-08",
+    "appliedBy": "Facilities & Security Manager"
+  }
+]

@@ -12,6 +12,9 @@ import { AppLayout } from './components/common/AppLayout';
 import { DashboardPage } from './features/dashboard/DashboardPage';
 import { ArAgingPage } from './features/ar/ArAgingPage';
 import { ApAgingPage } from './features/ap/ApAgingPage';
+import { ApBillsPage } from './features/ap/ApBillsPage';
+import { ApBillDetailPage } from './features/ap/ApBillDetailPage';
+import { ApPaymentsPage } from './features/ap/ApPaymentsPage';
 import { TimesheetsPage } from './features/timesheets/TimesheetsPage';
 import { TimesheetDetailPage } from './features/timesheets/TimesheetDetailPage';
 import { TimesheetFormPage } from './features/timesheets/TimesheetFormPage';
@@ -42,7 +45,12 @@ export function App() {
             <Route path="/ar/aging" element={<ArAgingPage />} />
             <Route path="/invoices" element={<ArInvoicesPage />} />
             <Route path="/invoices/:id" element={<ArInvoiceDetailPage />} />
+            <Route path="/ap/bills" element={<ApBillsPage />} />
+            <Route path="/ap/bills/:id" element={<ApBillDetailPage />} />
+            <Route path="/ap/payments" element={<ApPaymentsPage />} />
             <Route path="/ap/aging" element={<ApAgingPage />} />
+            <Route path="/bills" element={<ApBillsPage />} />
+            <Route path="/bills/:id" element={<ApBillDetailPage />} />
             <Route path="/timesheets" element={<TimesheetsPage />} />
             <Route path="/timesheets/new" element={<TimesheetFormPage />} />
             <Route path="/timesheets/:id" element={<TimesheetDetailPage />} />

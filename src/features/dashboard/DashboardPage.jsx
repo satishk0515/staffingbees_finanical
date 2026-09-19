@@ -23,10 +23,12 @@ import {
   fetchDashboardData,
   selectDashboardStatus,
   selectDashboardError,
-  selectDashboardPeriod
+  selectDashboardPeriod,
+  selectKpiMetrics
 } from '../../store/dashboardSlice';
 import { PageHeader } from '../../components/common/PageHeader';
 import { ErrorState } from '../../components/common/ErrorState';
+import { MarginWidget } from '../../components/common/MarginWidget';
 import { KpiGrid } from './components/KpiGrid';
 import { RevenueCostMarginChart } from './components/RevenueCostMarginChart';
 import { HoursTrendChart } from './components/HoursTrendChart';
@@ -41,6 +43,7 @@ export function DashboardPage() {
   const status = useSelector(selectDashboardStatus);
   const error = useSelector(selectDashboardError);
   const period = useSelector(selectDashboardPeriod);
+  const kpiMetrics = useSelector(selectKpiMetrics);
 
   const isLoading = status === 'loading';
   const isFailed = status === 'failed';
@@ -87,6 +90,17 @@ export function DashboardPage() {
       {/* SECTION 1: KPI Row (StatCards: 4 per row desktop / 2 tablet / 1 mobile) */}
       <section aria-label="Key Financial Performance Indicators">
         <KpiGrid isLoading={isLoading} />
+      </section>
+
+      {/* SECTION 2: Consolidated Gross Margin Performance Pairing */}
+      <section aria-label="Consolidated Gross Margin Pairing">
+        <MarginWidget
+          income={kpiMetrics?.revenue?.current || 0}
+          cost={kpiMetrics?.payrollCost?.current || 0}
+          period={periodSubtitleMap[period]?.split('(')[1]?.replace(')', '') || 'Current Financial Horizon'}
+          title="Consolidated Gross Margin Performance"
+          subtitle="Real-time pairing of recognized client income against total contractor and vendor liabilities"
+        />
       </section>
 
       {/* SECTION 3: Charts Section (Revenue vs Cost vs Margin, Hours Trend, Top Clients) */}

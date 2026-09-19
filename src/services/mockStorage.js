@@ -14,6 +14,7 @@ import arPaymentsData from '../data/arPayments.json';
 import arAdjustmentsData from '../data/arAdjustments.json';
 import billsData from '../data/bills.json';
 import apPaymentsData from '../data/apPayments.json';
+import apAdjustmentsData from '../data/apAdjustments.json';
 import auditLogData from '../data/auditLog.json';
 import jobsData from '../data/jobs.json';
 import organizationData from '../data/organization.json';
@@ -31,6 +32,7 @@ const DEFAULTS = {
   arAdjustments: arAdjustmentsData,
   bills: billsData,
   apPayments: apPaymentsData,
+  apAdjustments: apAdjustmentsData,
   auditLog: auditLogData,
   jobs: jobsData,
   organization: organizationData

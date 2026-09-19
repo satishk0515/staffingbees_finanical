@@ -2,17 +2,49 @@
   {
     "id": "app-2026-001",
     "billId": "bill-2026-209",
+    "billNumber": "BILL-2026-209",
+    "employeeId": "emp-002",
+    "vendorName": "David Chen (Full Stack Engineer)",
     "amount": 5440.00,
     "paymentDate": "2026-08-28",
     "paymentMethod": "Direct Deposit",
-    "referenceNumber": "DD-30491"
+    "referenceNumber": "DD-30491",
+    "notes": "Payroll direct deposit settlement for period ending 2026-08-07"
   },
   {
     "id": "app-2026-002",
     "billId": "bill-2026-201",
+    "billNumber": "BILL-2026-201",
+    "employeeId": "emp-001",
+    "vendorName": "Jenkins Cloud Consultancy LLC (Sarah Jenkins)",
     "amount": 2000.00,
     "paymentDate": "2026-09-02",
     "paymentMethod": "ACH",
-    "referenceNumber": "ACH-99410"
+    "referenceNumber": "ACH-99410",
+    "notes": "Partial contractor retainer draw"
+  },
+  {
+    "id": "app-2026-003",
+    "billId": "bill-2026-214",
+    "billNumber": "BILL-2026-214",
+    "employeeId": "emp-001",
+    "vendorName": "Jenkins Cloud Consultancy LLC (Sarah Jenkins)",
+    "amount": 7600.00,
+    "paymentDate": "2026-08-14",
+    "paymentMethod": "Wire",
+    "referenceNumber": "WIRE-84912",
+    "notes": "Full settlement for Sprint 32 architecture deliverables"
+  },
+  {
+    "id": "app-2026-004",
+    "billId": "bill-2026-210",
+    "billNumber": "BILL-2026-210",
+    "employeeId": "emp-005",
+    "vendorName": "Rachel Adams (Senior QA Automation)",
+    "amount": 2000.00,
+    "paymentDate": "2026-09-12",
+    "paymentMethod": "Check",
+    "referenceNumber": "CHK-10492",
+    "notes": "Advance payroll disbursement for sprint cycle"
   }
 ]
