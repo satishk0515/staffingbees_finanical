@@ -1,0 +1,71 @@
+[
+  {
+    "id": "imp-001",
+    "importId": "IMP202609010001",
+    "fileName": "employees_q3_batch.csv",
+    "fileType": "employees",
+    "receivedDate": "2026-09-01T09:15:00Z",
+    "recordsRead": 12,
+    "recordsImported": 12,
+    "recordsRejected": 0,
+    "status": "completed",
+    "stage": "archive",
+    "errors": [],
+    "importedRecordIds": ["emp-020", "emp-021", "emp-022", "emp-023", "emp-024", "emp-025", "emp-026", "emp-027", "emp-028", "emp-029", "emp-030", "emp-031"]
+  },
+  {
+    "id": "imp-002",
+    "importId": "IMP202609050002",
+    "fileName": "clients_new_accounts.csv",
+    "fileType": "clients",
+    "receivedDate": "2026-09-05T14:30:00Z",
+    "recordsRead": 8,
+    "recordsImported": 6,
+    "recordsRejected": 2,
+    "status": "completed_with_errors",
+    "stage": "processed",
+    "errors": [
+      { "row": 4, "field": "payment_terms", "error": "Invalid payment terms. Must be one of: Net 15, Net 30, Net 45, Net 60, Due on Receipt." },
+      { "row": 7, "field": "contact_email", "error": "Invalid email format." }
+    ],
+    "importedRecordIds": ["cli-020", "cli-021", "cli-022", "cli-023", "cli-024", "cli-025"]
+  },
+  {
+    "id": "imp-003",
+    "importId": "IMP202609100003",
+    "fileName": "timesheets_aug_2026.csv",
+    "fileType": "timesheets",
+    "receivedDate": "2026-09-10T08:00:00Z",
+    "recordsRead": 45,
+    "recordsImported": 42,
+    "recordsRejected": 3,
+    "status": "completed_with_errors",
+    "stage": "processed",
+    "errors": [
+      { "row": 12, "field": "placement_id", "error": "Referenced placement 'plc-999' does not exist." },
+      { "row": 23, "field": "regular_hours", "error": "Must be a positive number." },
+      { "row": 38, "field": "work_date", "error": "Invalid date format. Expected YYYY-MM-DD." }
+    ],
+    "importedRecordIds": []
+  },
+  {
+    "id": "imp-004",
+    "importId": "IMP202609180004",
+    "fileName": "placements_invalid.csv",
+    "fileType": "placements",
+    "receivedDate": "2026-09-18T16:45:00Z",
+    "recordsRead": 5,
+    "recordsImported": 0,
+    "recordsRejected": 5,
+    "status": "failed",
+    "stage": "rejected",
+    "errors": [
+      { "row": 1, "field": "employee_id", "error": "Referenced employee does not exist." },
+      { "row": 2, "field": "billing_rate", "error": "Must be a positive number." },
+      { "row": 3, "field": "client_id", "error": "Referenced client does not exist." },
+      { "row": 4, "field": "start_date", "error": "Invalid date format. Expected YYYY-MM-DD." },
+      { "row": 5, "field": "job_id", "error": "Referenced job does not exist." }
+    ],
+    "importedRecordIds": []
+  }
+]

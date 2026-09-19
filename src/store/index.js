@@ -16,6 +16,7 @@ import dashboardReducer from './dashboardSlice';
 import toastReducer from './toastSlice';
 import auditLogReducer from './auditLogSlice';
 import jobsReducer from './jobsSlice';
+import importsReducer from './importsSlice';
 
 export const store = configureStore({
   reducer: {
@@ -30,7 +31,8 @@ export const store = configureStore({
     dashboard: dashboardReducer,
     toast: toastReducer,
     auditLog: auditLogReducer,
-    jobs: jobsReducer
+    jobs: jobsReducer,
+    imports: importsReducer
   }
 });
 

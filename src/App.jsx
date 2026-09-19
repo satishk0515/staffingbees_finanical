@@ -30,6 +30,7 @@ import { PlacementsPage } from './features/placements/PlacementsPage';
 import { PlacementDetailPage } from './features/placements/PlacementDetailPage';
 import { JobsPage } from './features/jobs/JobsPage';
 import { JobDetailPage } from './features/jobs/JobDetailPage';
+import { ImportsListPage, ImportWizardPage, ImportBatchDetailPage } from './features/imports';
 import './App.css';
 
 export function App() {
@@ -64,6 +65,9 @@ export function App() {
             <Route path="/employees/:id" element={<EmployeeDetailPage />} />
             <Route path="/placements" element={<PlacementsPage />} />
             <Route path="/placements/:id" element={<PlacementDetailPage />} />
+            <Route path="/imports" element={<ImportsListPage />} />
+            <Route path="/imports/new" element={<ImportWizardPage />} />
+            <Route path="/imports/:id" element={<ImportBatchDetailPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AppLayout>

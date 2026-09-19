@@ -18,6 +18,7 @@ import apAdjustmentsData from '../data/apAdjustments.json';
 import auditLogData from '../data/auditLog.json';
 import jobsData from '../data/jobs.json';
 import organizationData from '../data/organization.json';
+import importBatchesData from '../data/importBatches.json';
 
 const STORAGE_PREFIX = 'staffing_erp_v3_';
 
@@ -35,7 +36,8 @@ const DEFAULTS = {
   apAdjustments: apAdjustmentsData,
   auditLog: auditLogData,
   jobs: jobsData,
-  organization: organizationData
+  organization: organizationData,
+  importBatches: importBatchesData
 };
 
 /**

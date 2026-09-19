@@ -34,7 +34,8 @@ import {
   Wallet,
   ChevronDown,
   ArrowDownRight,
-  ArrowUpRight
+  ArrowUpRight,
+  Upload
 } from 'lucide-react';
 import { ToastContainer } from '../ui/ToastContainer';
 
@@ -50,6 +51,7 @@ const FLAT_NAV_AFTER = [
   { label: 'Jobs', path: '/jobs', icon: ClipboardList },
   { label: 'Employees', path: '/employees', icon: Users },
   { label: 'Placements', path: '/placements', icon: Briefcase },
+  { label: 'Imports', path: '/imports', icon: Upload },
 ];
 
 /* ── Grouped dropdown navigation items ───────────────────────────── */
