@@ -19,6 +19,7 @@ import { ClientDetailPage } from './features/clients/ClientDetailPage';
 import { EmployeesPage } from './features/employees/EmployeesPage';
 import { EmployeeDetailPage } from './features/employees/EmployeeDetailPage';
 import { PlacementsPage } from './features/placements/PlacementsPage';
+import { PlacementDetailPage } from './features/placements/PlacementDetailPage';
 import { JobsPage } from './features/jobs/JobsPage';
 import { JobDetailPage } from './features/jobs/JobDetailPage';
 import './App.css';
@@ -41,6 +42,7 @@ export function App() {
             <Route path="/employees" element={<EmployeesPage />} />
             <Route path="/employees/:id" element={<EmployeeDetailPage />} />
             <Route path="/placements" element={<PlacementsPage />} />
+            <Route path="/placements/:id" element={<PlacementDetailPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AppLayout>

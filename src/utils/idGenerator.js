@@ -192,3 +192,66 @@ export function generateInternalJobId(existingJobs) {
   return `job-${nextNumber.toString().padStart(3, '0')}`;
 }
 
+/**
+ * Generates the next sequential Placement ID in PLC{YYYY}##### format.
+ *
+ * @param {Array} [existingPlacements] - Optional list of placements. If not provided, reads from storage.
+ * @param {number} [year] - Optional year, defaults to current calendar year.
+ * @returns {string} e.g. "PLC202600012"
+ */
+export function generatePlacementId(existingPlacements, year = new Date().getFullYear()) {
+  const placements = existingPlacements || getCollection('placements') || [];
+  let maxNumber = 0;
+
+  placements.forEach((p) => {
+    const rawId = p.placementId || p.id || '';
+    const match = rawId.match(/PLC\d{4}(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) {
+        maxNumber = num;
+      }
+    } else {
+      const altMatch = rawId.match(/plc-(\d+)/i);
+      if (altMatch && altMatch[1]) {
+        const num = parseInt(altMatch[1], 10);
+        if (num > maxNumber) {
+          maxNumber = num;
+        }
+      }
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `PLC${year}${nextNumber.toString().padStart(5, '0')}`;
+}
+
+/**
+ * Generates an internal slug ID for placements, e.g. "plc-012".
+ *
+ * @param {Array} [existingPlacements] - Optional list of placements.
+ * @returns {string} e.g. "plc-012"
+ */
+export function generateInternalPlacementId(existingPlacements) {
+  const placements = existingPlacements || getCollection('placements') || [];
+  let maxNumber = 0;
+
+  placements.forEach((p) => {
+    const rawId = p.id || p.placementId || '';
+    const match = rawId.match(/plc-(\d+)/i);
+    if (match && match[1]) {
+      const num = parseInt(match[1], 10);
+      if (num > maxNumber) maxNumber = num;
+    } else {
+      const altMatch = rawId.match(/PLC\d{4}(\d+)/i);
+      if (altMatch && altMatch[1]) {
+        const num = parseInt(altMatch[1], 10);
+        if (num > maxNumber) maxNumber = num;
+      }
+    }
+  });
+
+  const nextNumber = maxNumber + 1;
+  return `plc-${nextNumber.toString().padStart(3, '0')}`;
+}
+
